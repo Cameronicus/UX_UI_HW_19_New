@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Cameron's Portfolio</title>
+        <link rel="stylesheet" href="./css/index.css">
+    </head>
+    <body>
+        <section id="main grid-container">
+        <header class="navigation gridA1">
+            <div class="inline-block logo"><img src="./images/logo.png" width="50px" height="50px"></div>
+            <nav class="inline-block">
+                    <div class="ln">HOME</div>
+                    <div class="ln"><a href="./index.html">ABOUT</a></div>
+                    <div class="ln"> <a href="work.html">WORK</a></div>
+                    <div class="ln">CONTACT</div>
+                                </nav>
+            
+            <div class="name">
+                     <h3>Cameron Slaven</h3>
+            </div>
+        </header>
+
+        
+
+            <div id="sideNav" class="sidenav gridA2">
+                <a href="javascript:void(0)" class="close" onclick="closeN()">&gt;</a>
+                <h1>List of Works</h1>
+                <div class="flex-sidenav">
+                    <a href="./work.html" class="works">VOIDEN</a>
+                    <a href="#" class="works">APOCAPONIES</a>
+                    <a href="#" class="works">SILVERSUN PICTURES</a>
+                    <a href="#" class="works">SPACEMAN WITH FLOWER</a>
+                </div>
+            </div>
+
+<img src="./images/Voiden1.PNG"  height="600px" width="100%">
+<div class="gridA3"> 
+    <span style="color: #00B9F3; cursor: pointer; font-size: 36px;" onclick="openN()">&lt;</span>
+    <h1 style="color: #00B9F3;" >Voiden</h1>
+    <div class="block">
+        <p>For some time now I have had an idea floating around my head to create an FPS horror game. Recently, I started turning this idea into a reality. Looking to improve my knowledge and understanding of programming and the Unreal Engine, I have chosen to undertake this project in C++ in UE4, as opposed to the more well known blueprints form of programming. This presents a unique challenge to myself as it has been a while since I last programmed in C++.
+
+            In its current state, I have a flashlight with a texture, a first person character (just floating arms and a camera currently), a cross hair, and a firing mechanic allowing the player to shoot bullets. My next steps will be to create an option that allows the player to toggle the light on and off, a reload mechanic, and probably model then texture a rifle. Still trying to decide on the look for the world, do I want gritty? Sleek? Blocky designs, militaristic? Who knows but it should be fun.</p>
+        <img src="./images/voiden2.PNG" class="img1" >
+        <p>Progress on the project has been progressing smoothly, been making myself work on it at least 3 times a week. With some early models for the gun, arms, and alien, I’ve been able to start seeing what a finished product may look like. Using Unreal Engine, I’ve started forming hallways and giving the alien life, namely through the use of a Blackboard and a Behaviour Tree. As I have had limited experience with AI up to this point, it has been an interesting endeavour.</p>
+    </div>
+    <div class="block flex-block gridA4">
+        <img src="./images/voiden3.PNG" class="img2" >
+        <p><br>I also had to make the decision to switch from C++ back to Blueprints, after I ran into a few major snags, and to which the lack of available support for C++ made incredibly difficult to solve. Since switching to blueprints however, progress has been swift and now far exceeded that of the original C++ project.
+            The alien in general has been a unique experience, from sketching it out, to rigging and animating it. This alien would be the first non human or basic shape option I have animated, making its movements a little janky but I am happy with the results so far. Making everything for the project so far has been arduous but well worth the effort I feel. Gives me a little pride boost every time I see pop into Unreal engine to add something new or tweak what is currently there.
+       <br><br> </p>
+        <p><br><br>
+            To show what I’ve been working on, I’ll be attaching two images. One will show what the pause menu currently looks like in Unreal Engine, and the other is showcasing the animation and rigged skeleton for the alien model, which will soon be ported into Unreal, letting me finally get rid of the bright blue prism. As a result of the rigging, the alien model which will be imported with the skeleton and animations will be an updated and slightly better looking version than the static mesh currently in the game.
+        </p>
+        
+    </div>
+    <div>
+        <p></p>
+        <img src="./images/alien_blend (1).png" class="img1">
+    </div>
+</div>
+
+        
+
+        <footer class="foot gridA4">
+            <form class="contact">
+                <label for="contact">Contact:</label>
+                <input type="text" id="contact" name="contact"><br><br>
+                <input type="submit" value="Send">
+            </form>   
+           </footer>
+
+
+        </section>
+        </body>
+</html>

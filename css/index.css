@@ -1,0 +1,273 @@
+body {
+    font-family: "Alef", sans-serif;
+    
+}
+
+/* Work section with a grid applied */
+.grid-container {
+    display: grid;
+    grid-template-areas:
+    'header header header header header header header header header header header header'
+    'siednav sidenav sidenav main main main main main main main main main'
+    'footer footer footer footer footer footer footer footer footer footer footer footer';
+    grid-gap: 10px;
+    padding: 10px;
+}
+
+.gridA1 {
+grid-area: header;
+}
+
+.gridA2 {
+grid-area: sidenav;
+}
+
+.gridA3 {
+grid-area: main;
+}
+
+.gridA4 {
+grid-area: footer;
+}
+
+.infoMe h1 {
+    color: #00B9F3;
+}
+
+.sidenav h1 {
+    color: #f8f8f8;
+}
+.inline-block {
+    width: 300px;
+    display: inline-block;
+    vertical-align: top;
+    padding-left: 2%;
+    padding-right: 1%;
+}
+
+.ln {
+    width: 60px;
+    padding-top: 7%;
+    display: inline-block;
+    text-align: center;
+    color: #f8f8f8;
+    border: 1px;
+    border-color: #f8f8f8;
+    font-size: 18px;
+}
+
+.logo {
+    width: fit-content;
+    padding-top: 0.5%;
+}
+
+/* For the name section of the nav */
+.name {
+    width: fit-content;
+    display: inline-block;
+    vertical-align: top;
+    padding-left: 60%;
+    
+}
+
+.name h3 {
+    
+    color: #f8f8f8;
+}
+
+.main {
+    display: inline-flex;
+    flex-direction: row;
+}
+
+.sidebar {
+    width: 30%; /* Set the width of the sidebar */
+    z-index: 1; /* Stay on top */
+    left: 0;
+    overflow-x: hidden; /* Disable horizontal scroll */
+}
+
+.info {
+    padding: 5%;
+    margin: 2%;;
+}
+
+.bio {
+    padding: 2%;
+    margin: 1%;
+}
+
+.heroImgs {
+    width: 70%;
+    z-index: 1;
+    right: 0;
+    overflow-x: hidden; /* Disable horizontal scroll */
+}
+
+.navigation{
+    width: 100%;
+    background-color: #00B9F3;
+    height: 64px;
+}
+
+.foot {
+    width: 100%;
+    background-color: #00B9F3;
+    height: 72px;
+}
+
+.contact {
+    padding-top: 0.3%;
+    padding-left: 80%;
+}
+
+#main {
+    transition: margin-left .5s linear;
+    font-size: 24px;
+    padding: 20px;
+    display: grid;
+}
+
+.flex-container {
+    display: inline-flex;
+    flex-direction: row;
+    justify-content: center;
+    flex-wrap: nowrap;
+    background-color: #00baf398;
+    width: 100%;
+}
+
+.flexchild1 {
+    border-radius: 25px;
+background-image: url("file:///C /Users/csmas/Documents/GitHub/UX_UI_HW_ 17/images/5461.JPG");
+background-position: left top;
+background-repeat: no-repeat;
+background-size: 100% 100%;
+width: 23%;
+height: 266px;
+margin: 1%;
+}
+
+.flexchild2 {
+    border-radius: 25px;
+background-image: url("file:///C /Users/csmas/Documents/GitHub/UX_UI_HW_ 17/images/5069.JPG");
+background-position: left top;
+background-repeat: no-repeat;
+background-size: 100% 100%;
+width: 23%;
+height: 266px;
+margin: 1%;
+}
+
+.flexchild3 {
+    border-radius: 25px;
+background-image: url("file:///C /Users/csmas/Documents/GitHub/UX_UI_HW_ 17/images/5099.JPG");
+background-position: left top;
+background-repeat: no-repeat;
+background-size: 100% 100%;
+width: 23%;
+height: 266px;
+margin: 1%;
+}
+
+.flexchild4 {
+    border-radius: 25px;
+background-image: url("file:///C /Users/csmas/Documents/GitHub/UX_UI_HW_ 17/images/5196.JPG");
+background-position: left top;
+background-repeat: no-repeat;
+background-size: 100% 100%;
+width: 23%;
+height: 266px;
+margin: 1%;
+}
+
+.flex-sidenav {
+    flex-direction: column;
+    justify-content: center;
+    flex-wrap: nowrap;
+}
+
+.block {
+    padding: 1%;
+    margin-left: 2%;
+    margin-right: 2%;
+}
+
+
+.sidenav {
+height: 100%;
+width: 0;
+position: fixed;
+z-index: 1;
+top: 0;
+left: 0;
+background-color: #69dbfd;
+overflow-x: hidden;
+transition: 0.5s;
+}
+
+.sidenav a {
+    padding: 2%;
+    margin-top: 2%;
+    margin-bottom: 2%;
+    font-size: 24px;
+    color: #f8f8f8;
+    text-decoration: none;
+    display: block;
+    transition: 0.4s;
+}
+
+.sidenav .close {
+    position: absolute;
+    top: 0;
+    right: 2%;
+    font-size: 36px;
+    margin-left: 60%;
+}
+
+.flex-block {
+    flex-direction: row;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+.img1{
+    display: block;
+    width: 60%; 
+    margin-left:  auto;
+    margin-right: auto;
+}
+
+.img2 {
+    float:right;
+    width: 40%; 
+    margin: 2.5%;
+}
+
+@media only screen and (max-width: 600px) {
+    .flex-block {
+        flex-direction: column;
+        width: 100%;
+    }
+
+    .flex-sidenav {
+        flex-direction: column;
+        width: 100%;
+    }
+
+    .grid-container {
+        grid-template-columns: 1fr;
+        grid-template-areas: 
+        'header'
+        'sidenav'
+        'main'
+        'footer';
+    }
+
+    .contact {
+        display: block;
+        margin-left: 25%;
+        padding: 0.1%;
+
+    }
+}
