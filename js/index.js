@@ -13,7 +13,7 @@ var myModal = document.getElementById("contModal");
 // Set object for the button that will trigger the modal box
 var myButton = document.getElementById("buttonMod");
 // Set an element that will close the modal box
-var exitBtn = document.getElementsByClassName("buttonClose")[0];
+var exitBtn = document.getElementsByClassName("buttonClose, close")[0];
 // Allows display of modal box, when user clicks the button
 myButton.onclick = function() {
 myModal.style.display = "block";
