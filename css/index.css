@@ -126,7 +126,7 @@ grid-area: footer;
     display: none;
     position: fixed;
     z-index: 1;
-    padding-top: 10%;
+    padding-top: 100px;
     left: 0;
     top: 0;
     width: 100%;
@@ -151,8 +151,9 @@ grid-area: footer;
     font-weight: bold;
 }
 
-.buttonClose:hover {
-    
+.buttonClose:hover, .buttonClose:focus {
+    color: #000;
+    cursor: pointer;
 }
 
 #main {
