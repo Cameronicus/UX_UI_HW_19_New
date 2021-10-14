@@ -2,6 +2,16 @@
 <html>
     <head>
         <title>Cameron's Portfolio</title>
+        <script src="js/index.js"></script>
+        
+        <script async src="https://www.googletagmanager.com/gtag/js?id=G-SYEBNMR1ED"></script>
+        <script>
+            window.dataLayer = window.dataLayer || [];
+            function gtag(){dataLayer.push(arguments);}
+            gtag('js', new Date());
+          
+            gtag('config', 'G-SYEBNMR1ED');
+          </script>
         <link rel="stylesheet" href="./css/index.css">
     </head>
     <body>
@@ -60,7 +70,7 @@
 
         <footer class="foot gridA4">
             <div class="contact">
-                <button type="button" class="buttonPrim">CONTACT ME</button>
+                <button type="button" id="buttonMod" class="buttonPrim">CONTACT ME</button>
                 <div id="contModal" class="modal">
                     <div class="modal-content">
                       <span class="close">&times;</span>
@@ -86,6 +96,6 @@
 
 
         </section>
-        <script src="js/index.js"></script>
+        
         </body>
 </html>
