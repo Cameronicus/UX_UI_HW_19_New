@@ -66,6 +66,11 @@ grid-area: footer;
     font-size: 18px;
 }
 
+.hero {
+    background-image: url("../images/5089.JPG");
+    background-repeat: no-repeat;
+}
+
 .logo {
     width: fit-content;
     padding-top: 0.5%;
@@ -192,7 +197,7 @@ ul {
 
 .flexchild1 {
     border-radius: 25px;
-background-image: url("file:///C /Users/csmas/Documents/GitHub/UX_UI_HW_ 17/images/5461.JPG");
+background-image: url("../images/5461.JPG");
 background-position: left top;
 background-repeat: no-repeat;
 background-size: 100% 100%;
@@ -203,7 +208,7 @@ margin: 1%;
 
 .flexchild2 {
     border-radius: 25px;
-background-image: url("file:///C /Users/csmas/Documents/GitHub/UX_UI_HW_ 17/images/5069.JPG");
+background-image: url("../images/5069.JPG");
 background-position: left top;
 background-repeat: no-repeat;
 background-size: 100% 100%;
@@ -214,7 +219,7 @@ margin: 1%;
 
 .flexchild3 {
     border-radius: 25px;
-background-image: url("file:///C /Users/csmas/Documents/GitHub/UX_UI_HW_ 17/images/5099.JPG");
+background-image: url("../images/5099.JPG");
 background-position: left top;
 background-repeat: no-repeat;
 background-size: 100% 100%;
@@ -225,7 +230,7 @@ margin: 1%;
 
 .flexchild4 {
     border-radius: 25px;
-background-image: url("file:///C /Users/csmas/Documents/GitHub/UX_UI_HW_ 17/images/5196.JPG");
+background-image: url("../images/5196.JPG");
 background-position: left top;
 background-repeat: no-repeat;
 background-size: 100% 100%;
