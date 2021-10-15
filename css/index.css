@@ -3,6 +3,16 @@ body {
     
 }
 
+p {
+    font-size: 24px;
+}
+
+.bioImg {
+    border-radius: 50%;
+    width: 75%;
+    padding-left: 15%;
+}
+
 /* Work section with a grid applied */
 .grid-container {
     display: grid;
@@ -95,6 +105,11 @@ grid-area: footer;
 .bio {
     padding: 2%;
     margin: 1%;
+    font-size: 24px;
+}
+
+ul {
+    font-size: 24px;
 }
 
 .heroImgs {
@@ -226,7 +241,7 @@ margin: 1%;
 }
 
 .block {
-    padding: 1%;
+    padding: 5%;
     margin-left: 2%;
     margin-right: 2%;
 }
