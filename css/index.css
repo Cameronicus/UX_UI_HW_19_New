@@ -69,6 +69,21 @@ grid-area: footer;
 .hero {
     background-image: url("../images/5089.JPG");
     background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+    padding: 8%;
+    justify-content: center;
+    text-align: center;
+}
+
+.hero h1 {
+    font-size: 72px;
+    color: #f8f8f8;
+}
+
+.hero h3 {
+    font-size: 48px;
+    color: #f8f8f8;
 }
 
 .logo {
