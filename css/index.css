@@ -85,6 +85,11 @@ text-align: center;
     font-size: 18px;
 }
 
+.ln a {
+    color: #f8f8f8;
+}
+
+
 .hero {
     background-image: url("../images/5089.JPG");
     background-repeat: no-repeat;
